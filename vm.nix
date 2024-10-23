@@ -39,9 +39,9 @@
 
   # X configuration
   services.xserver.enable = true;
-  services.xserver.layout = "fr";
+  services.xserver.xkb.layout = "fr";
 
-  services.xserver.displayManager.autoLogin.user = "guest";
+  services.displayManager.autoLogin.user = "guest";
   services.xserver.desktopManager.xfce.enable = true;
   services.xserver.desktopManager.xfce.enableScreensaver = false;
 
