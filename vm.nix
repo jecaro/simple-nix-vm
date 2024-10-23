@@ -18,7 +18,7 @@
     virtualisation.qemu.options = [
       # Better display option
       "-vga virtio"
-      "-display gtk,zoom-to-fit=false"
+      "-display gtk,zoom-to-fit=false,show-cursor=on"
       # Enable copy/paste
       # https://www.kraxel.org/blog/2021/05/qemu-cut-paste/
       "-chardev qemu-vdagent,id=ch1,name=vdagent,clipboard=on"
