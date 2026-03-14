@@ -1,11 +1,13 @@
 # Simple nix VM for just anything
 
+[![CI][status-png]][status]
+
 As described in this [post](https://jeancharles.quillet.org/posts/2023-01-16-Basic-nix-vm-for-just-anything.html)
 
 Build with:
 
 ```bash
-$ nix build  ./#nixosConfigurations.vm.config.system.build.vm
+$ nix build ./#nixosConfigurations.vm.config.system.build.vm
 ```
 
 Then run with:
@@ -14,3 +16,5 @@ Then run with:
 $ ./result/bin/run-nixos-vm
 ```
 
+[status-png]: https://github.com/jecaro/simple-nix-vm/actions/workflows/nix-build.yml/badge.svg
+[status]: https://github.com/jecaro/simple-nix-vm/actions/workflows/nix-build.yml
